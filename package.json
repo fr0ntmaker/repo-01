@@ -1,0 +1,67 @@
+{
+  "name": "my_spa-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@progress/kendo-data-query": "^1.5.1",
+    "@progress/kendo-diagram-vue-wrapper": "^2019.2.621",
+    "@progress/kendo-dropdowns-vue-wrapper": "^2019.2.621",
+    "@progress/kendo-inputs-vue-wrapper": "^2019.2.621",
+    "@progress/kendo-theme-default": "^4.1.0",
+    "@progress/kendo-ui": "^2019.2.801",
+    "@progress/kendo-vue-animation": "^0.3.4",
+    "@progress/kendo-vue-grid": "^0.3.4",
+    "@progress/kendo-vue-intl": "^0.3.4",
+    "@progress/kendo-vue-popup": "^0.3.4",
+    "bootstrap-vue": "^2.0.0-rc.19",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-router": "^3.0.7"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "bootstrap": "^4.3.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "mutationobserver-shim": "^0.3.3",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "portal-vue": "^2.1.4",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-bootstrap-vue": "^0.4.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
